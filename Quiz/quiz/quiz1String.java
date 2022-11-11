@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class quiz1String {
+public class Main {
     public static void main(String[] args) {
         //Klavyeden girilen String'in küçük harflerinin sayısını ekrana yazdıran program yazınız.
 
