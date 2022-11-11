@@ -13,7 +13,6 @@ public class quiz1String {
         char harf1, harf2;
         int sayac = 0;
 
-
         for (int i = 0; i < kelime1.length(); i++) {
             harf1 = kelime1.charAt(i);
             harf2 = kelime2.charAt(i);
