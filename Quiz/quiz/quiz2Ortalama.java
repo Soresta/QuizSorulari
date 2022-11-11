@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class quiz2Ortalama {
+public class Main {
     public static void main(String[] args) {
 
         //Klavyeden girilen 10 tam sayının pozitif olanların ortalamasını hesapalyan programı yazınız.
@@ -17,7 +17,11 @@ public class quiz2Ortalama {
             }
         }
         ortalama = toplam / sayac;
-        System.out.println("Girilen pozitif sayıların ortalaması = " + ortalama);
 
+        if (ortalama != ortalama) {
+            System.out.println("Ortalama bulunmuyor ");//(Girilen sayıların hepsi 0 veya negatif ise boyle yazar)
+        } else {
+            System.out.println("Girilen pozitif sayıların ortalaması = " + ortalama);
+        }
     }
 }
